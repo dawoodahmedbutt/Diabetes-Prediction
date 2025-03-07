@@ -1,4 +1,10 @@
 import streamlit as st
+# Set page configuration - this changes the browser tab title
+st.set_page_config(
+    page_title="Diabetes Model",
+    page_icon="🩺",
+    layout="wide"
+
 import numpy as np
 import pickle
 import pandas as pd
