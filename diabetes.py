@@ -4,6 +4,7 @@ st.set_page_config(
     page_title="Diabetes Model",
     page_icon="🩺",
     layout="wide"
+)
 
 import numpy as np
 import pickle
@@ -12,12 +13,7 @@ import os
 st.write("Current working directory:", os.getcwd())
 st.write("Files in directory:", os.listdir())
 
-# Set page configuration - this changes the browser tab title
-st.set_page_config(
-    page_title="Diabetes Model",
-    page_icon="🩺",
-    layout="wide"
-)
+
 
 # Set environment variables to disable GPU
 ## '3' means "only show errors" (suppress info, warnings, and debug messages)
