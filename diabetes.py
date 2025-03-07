@@ -26,7 +26,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' # Suppress TensorFlow logging
 # load the model
 @st.cache_resource
 def load_model():
-    return pickle.load(open('model.pkl', 'rb'))
+    return pickle.load(open('logreg_model.pkl', 'rb'))
 
 # Load the scaler
 @st.cache_resource
