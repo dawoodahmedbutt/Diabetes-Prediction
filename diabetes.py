@@ -3,6 +3,8 @@ import numpy as np
 import pickle
 import pandas as pd
 import os
+st.write("Current working directory:", os.getcwd())
+st.write("Files in directory:", os.listdir())
 
 # Set page configuration - this changes the browser tab title
 st.set_page_config(
